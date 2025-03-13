@@ -388,6 +388,7 @@ class CaptureImagesScreen(QWidget):
         self.start_button.clicked.connect(self.start_camera)
         self.footer_layout.addWidget(self.start_button)
 
+        
         self.capture_button = QPushButton("Capture Frame")
         self.capture_button.setEnabled(False)
         self.capture_button.clicked.connect(self.capture_frame)
